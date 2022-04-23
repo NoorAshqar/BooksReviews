@@ -1,8 +1,16 @@
 .bg-myColor{
     background-color: rgba(130,184,8);
 }
+
+.nav-brand{
+    padding:0;
+}
+.logo-books{
+    font-weight: 750;
+}
 .nav-brand a{
-    font-size:35px;
+    font-size:50px;
+    font-weight: 300;
     color:white;
     text-decoration: none;
 }
@@ -10,7 +18,10 @@
     color: white;
     font-weight: 500;
 }
-.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .show > .nav-link {
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: black;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
     color: black;
 }
 #navbarScroll{

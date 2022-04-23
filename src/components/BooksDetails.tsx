@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react'
 import { Container } from 'react-bootstrap';
 import { useLocation } from 'react-router-dom';
-import './Details.css';
+import '../styles/Details.css';
 
 function BooksDetails() {
     const [books, setBooks] = useState<Array<string>>([]);

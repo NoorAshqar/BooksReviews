@@ -15,7 +15,7 @@ function SliderWrapper() {
                     theme = "black";
                 }
                 return (
-                    <SliderRow genre={genre} key={i} theme={theme}></SliderRow>
+                    <SliderRow genre={genre} key={i} theme={theme} id={genre.title}></SliderRow>
                 )
             })
             }

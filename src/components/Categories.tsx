@@ -1,5 +1,5 @@
 import React from 'react'
-import './Categories.css';
+import '../styles/Categories.css';
 import data from '../data/categories.json';
 import { Container, Card } from 'react-bootstrap';
 export default function Categories() {

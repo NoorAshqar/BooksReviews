@@ -4,7 +4,6 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import MainNavbar from './components/MainNavbar'
 import BooksDetails from './components/BooksDetails';

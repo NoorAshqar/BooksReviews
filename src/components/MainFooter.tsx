@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
 
-import './Footer.css';
+import '../styles/Footer.css';
 function MainFooter() {
     return (
         <footer className="main-footer">
@@ -40,22 +40,22 @@ function MainFooter() {
                             <li><a href="#Graphics Novles">Graphics Novles</a></li>
                         </ul>
                         <ul>
-                            <li><a href="#">Historical Fiction</a></li>
-                            <li><a href="#">History</a></li>
-                            <li><a href="#">Horror</a></li>
-                            <li><a href="#">Humor And Comedy</a></li>
-                            <li><a href="#">Manga</a></li>
-                            <li><a href="#">Memoir</a></li>
-                            <li><a href="#">Music</a></li>
+                            <li><a href="#Historical">Historical Fiction</a></li>
+                            <li><a href="#History">History</a></li>
+                            <li><a href="#Horror">Horror</a></li>
+                            <li><a href="#Humor">Humor And Comedy</a></li>
+                            <li><a href="#Manga">Manga</a></li>
+                            <li><a href="#Memoir">Memoir</a></li>
+                            <li><a href="#Music">Music</a></li>
                         </ul>
                     </div>
                 </div>
                 <div>
                     <h2>FOLLOW US</h2>
                     <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">RSS</a></li>
+                        <li><a href="#Facebook">Facebook</a></li>
+                        <li><a href="#Twitter">Twitter</a></li>
+                        <li><a href="#RSS">RSS</a></li>
                     </ul>
                 </div>
             </Container>

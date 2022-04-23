@@ -3,16 +3,16 @@ import { Container } from 'react-bootstrap';
 import {
   Link
 } from "react-router-dom";
-import './Slider.css';
+import '../styles/Slider.css';
 import Carousel from "react-elastic-carousel"
-function SlideRow({genre,theme}) {
+function SlideRow({genre,theme,id}) {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 545, itemsToShow: 3 },
     { width: 801, itemsToShow: 5 },
   ];
   return (
-    <Container fluid className={theme === "white" ? "slider-con white" : "slider-con black"}  style={{backgroundImage: `url(${genre.background})`}}>
+    <Container fluid className={theme === "white" ? "slider-con white" : "slider-con black"} id={id} style={{backgroundImage: `url(${genre.background})`}}>
         <Container>
             <h2>{genre.title}</h2>
           <Carousel showArrows={true} breakPoints={breakPoints}>
