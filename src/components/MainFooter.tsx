@@ -9,35 +9,35 @@ function MainFooter() {
                 <div>
                     <h2>NAVIGATION</h2>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Books</a></li>
-                        <li><a href="#">Reviews</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Books">Books</a></li>
+                        <li><a href="#Reviews">Reviews</a></li>
+                        <li><a href="#News">News</a></li>
+                        <li><a href="#Contacts">Contacts</a></li>
                     </ul>
                 </div>
                 <div>
                     <h2>CATEGORIES</h2>
                     <div className="footer-categories">
                         <ul>
-                            <li><a href="#">Art</a></li>
-                            <li><a href="#">Biography</a></li>
-                            <li><a href="#">Buesiness</a></li>
-                            <li><a href="#">Check Lit</a></li>
-                            <li><a href="#">Children's</a></li>
-                            <li><a href="#">Muslim</a></li>
-                            <li><a href="#">Classics</a></li>
-                            <li><a href="#">Comics</a></li>
+                            <li><a href="#Art">Art</a></li>
+                            <li><a href="#Biography">Biography</a></li>
+                            <li><a href="#Buesiness">Buesiness</a></li>
+                            <li><a href="#Check Lit">Check Lit</a></li>
+                            <li><a href="#Children's">Children's</a></li>
+                            <li><a href="#Muslim">Muslim</a></li>
+                            <li><a href="#Classics">Classics</a></li>
+                            <li><a href="#Comics">Comics</a></li>
                         </ul>
                         <ul>
-                            <li><a href="#">Contemporary</a></li>
-                            <li><a href="#">Cookbooks</a></li>
-                            <li><a href="#">Crime</a></li>
-                            <li><a href="#">Ebooks</a></li>
-                            <li><a href="#">Fantasy</a></li>
-                            <li><a href="#">Fiction</a></li>
-                            <li><a href="#">Gaymer</a></li>
-                            <li><a href="#">Graphics Novles</a></li>
+                            <li><a href="#Contemporary">Contemporary</a></li>
+                            <li><a href="#Cookbooks">Cookbooks</a></li>
+                            <li><a href="#Crime">Crime</a></li>
+                            <li><a href="#Ebooks">Ebooks</a></li>
+                            <li><a href="#Fantasy">Fantasy</a></li>
+                            <li><a href="#Fiction">Fiction</a></li>
+                            <li><a href="#Gaymer">Gaymer</a></li>
+                            <li><a href="#Graphics Novles">Graphics Novles</a></li>
                         </ul>
                         <ul>
                             <li><a href="#">Historical Fiction</a></li>
