@@ -11,7 +11,7 @@
 1. Fork the repo from github.
 2. Clone down your fork
 ```
-git clone https://github.com/<user Name>/reponame.git
+git clone https://github.com/NoorAshqar/BooksReviews
 ```
 3. Move into the repo after its been cloned onto your machine.
 4. Follow the instructions in the 'Installing Dependencies' section.
